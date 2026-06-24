@@ -53,7 +53,7 @@ function App() {
       </header>
 
       {/* Hero */}
-      <section className="relative flex min-h-screen flex-col items-center justify-center px-6 pt-24 text-center">
+      <section className="relative flex min-h-screen flex-col items-center justify-center px-6 pt-24 pb-20 text-center sm:pb-0">
         <div className="absolute inset-0 bg-gradient-to-b from-red-50/80 via-white to-white" />
         <div className="relative max-w-3xl">
           <div className="mb-8">
@@ -76,7 +76,7 @@ function App() {
               Location announcement coming Friday, June 26th
             </p>
           </div>
-          <div className="mt-10 flex flex-col items-center justify-center gap-4 sm:flex-row">
+          <div className="mt-10 mb-12 flex flex-col items-center justify-center gap-4 sm:mb-0 sm:flex-row">
             <a
               href="#wholesale"
               className="rounded-lg bg-red-600 px-8 py-3 text-sm font-semibold text-white transition hover:bg-red-700"
